@@ -1,0 +1,4 @@
+<!--pages/index/total.wxml-->
+<view class="wrapper">
+  <text wx:for="{{answerdata}}" wx:key="{{index}}"  wx:for-item="itemData" >{{itemData.name}}</text>
+</view>

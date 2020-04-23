@@ -1,0 +1,20 @@
+<view class='wrapper'>
+  <view class="userinfo">
+  <view class="imgbox">
+      <open-data type="userAvatarUrl" class="userimg"></open-data>
+  </view>
+    <view class="username">
+      <open-data type="userNickName" class="nickname"></open-data>
+      <text>，你正在烦恼什么问题呢</text>
+      <text class="otheranswers">有更好的答案请留言，或许有人正在等待这个答案</text>
+      <button open-type="contact" bindcontact="handleContact" class="chatbtn" style="width:260rpx;">留言咨询</button>
+    </view>
+    <view class="textinfo">
+      <text>春有百花秋有月</text>
+      <text>夏有凉风冬有雪</text>
+      <text>莫将闲事挂心头</text>
+      <text>便是人间好时节</text>
+    </view>
+    <view class="totalurl" bindtap="tapurl"></view>
+  </view>
+</view>

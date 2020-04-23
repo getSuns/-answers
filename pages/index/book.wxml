@@ -1,0 +1,24 @@
+<!--pages/index/book.wxml-->
+<view class="wrapper">
+  <view class="explainbox">
+    <text class="title">使用手册</text>
+    <view class="explain">
+      <view class="ic-round"></view>
+      <view class="ic-round"></view>
+      <view class="ic-round"></view>
+      <view class="ic-round"></view>
+      <text>1. 双手握着手机，将手机正面贴胸而放</text>
+      <text>2. 默想你心中的问题，尽量是简单的问答句式</text>
+      <text class="example"> 例如“这条路如何走下去？” “我该放弃她吗？”   ......</text>
+      <text>3. 闭上眼睛，默想问题三遍</text>
+      <text>4. 深呼吸，然后点击按钮，等待答案的出现</text>
+      <text>5. 希望对你的人生有帮助</text>
+    </view>
+  </view>
+  <view class="answerstext">
+    <text style="animation:{{animation}}">{{answertext}}</text>
+  </view>
+  <view class="answersbox">
+      <button bindtap="getanswer" style="width:260rpx">我想好了</button>
+  </view>
+</view>

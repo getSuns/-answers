@@ -1,0 +1,59 @@
+.chatbtn{
+  box-shadow: 5rpx 5rpx 15rpx #999;
+  color: #a58755;
+  font-weight: normal;
+  font-size: 30rpx;
+  padding: 25rpx 0;
+  margin: 100rpx 0;
+  background-color: #eee;
+}
+.imgbox{
+  width: 300rpx;
+  height: 300rpx;
+  overflow: hidden;
+  border-radius: 100%;
+  position: relative;
+  left: 50%;
+  top:50rpx;
+  transform: translate(-50%);  
+}
+.userimg{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.username{
+  margin-top: 100rpx;
+  text-align: center;
+  width: 500rpx;
+  margin:100rpx auto 100rpx auto;
+  font-size: 28rpx;
+  line-height: 40rpx;
+}
+.nickname{
+  display: inline-block;
+  line-height: 30rpx;
+}
+.textinfo{
+  text-align: center;
+  font-size: 25rpx;
+  line-height: 50rpx;
+  color: #999;
+}
+.textinfo text{
+  display: block;
+
+}
+.otheranswers{
+  padding-top: 10rpx;
+  display: block;
+  font-size: 20rpx;
+  color: #666;
+}
+.totalurl{
+  width: 100%;
+  height: 100rpx;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
